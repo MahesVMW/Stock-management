@@ -7,7 +7,7 @@ export const StockProvider = ({ children }) => {
   const [stocks, setStocks] = useState([]);
   const [token, setToken] = useState("");
   const [historyLog, setHistoryLog] = useState([]);
-  const url = "https://stock-management-backend-z6jh.onrender.com"; // Base URL
+  const url = "https://stock-management-backend-z6jh.onrender.com"; 
 
   useEffect(() => {
     const savedStocks = JSON.parse(localStorage.getItem('stocks')) || []; 

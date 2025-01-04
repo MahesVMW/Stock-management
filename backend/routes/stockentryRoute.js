@@ -4,7 +4,7 @@ import { deleteStock, stockentry, stockIn, stockOut } from '../controllers/stock
 const router = express.Router();
 
 // POST route to handle stock entry
-router.post('/stockentry', stockentry);
+router.post('/stock', stockentry);
 
 // PUT route to handle stock in by ID
 router.put('/:id/in', stockIn);  

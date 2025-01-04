@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin: 'https://stock-management-frontend-pzfv.onrender.com'
 }));
 
 // Middlewares

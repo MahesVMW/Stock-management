@@ -1,0 +1,75 @@
+/* StockInModal.css */
+.modal-content {
+    font-family: "Merienda", serif; /* Apply the font-family to all text inside the modal */
+    background: #6a8fb4; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
+  }
+  
+  .modal-header {
+    color: #0f0f0f; /* White text for readability */
+    border-bottom: none; /* Remove default border */
+    font-weight: bold; /* Emphasize the title */
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    font-family: "Poppins", serif;
+  }
+  
+  .modal-footer {
+    background: #6a8fb4; /* Subtle background for footer */
+    border-top: none; /* Remove default border */
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold; /* Emphasize form labels */
+    margin-bottom: 8px;
+  }
+  
+  .form-control {
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded inputs */
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff; /* Focused border color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow on focus */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .btn-secondary {
+    background-color: #1b1d1f; /* Secondary button color */
+    border-color: #6c757d;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268; /* Darker shade on hover */
+  }
+  
+  textarea {
+    resize: none; /* Prevent resizing for better design consistency */
+  }
+  
+  .mt-3 {
+    margin-top: 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  

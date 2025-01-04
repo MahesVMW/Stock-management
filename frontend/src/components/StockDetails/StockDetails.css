@@ -1,0 +1,36 @@
+/* StockDetails.css */
+.stock-details-container {
+    margin-top: 20px;
+  }
+  
+  .stock-details h2 {
+    margin-bottom: 20px;
+  }
+  
+  .stock-details {
+    margin-bottom: 20px;
+  }
+  
+  .history-log h3 {
+    margin-bottom: 15px;
+  }
+  
+  .history-log table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .history-log th, .history-log td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .history-log tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .history-log th {
+    background-color: #f2f2f2;
+  }
+  

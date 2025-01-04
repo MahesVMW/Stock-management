@@ -1,0 +1,118 @@
+
+.sidebar {
+    width: 60px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, #02121a, #0c0c0c,); /* Light gradient */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: width 0.3s ease-in-out;
+    overflow-x: hidden;
+    z-index: 1000; /* Ensures it's above the navbar */
+  }
+  
+  .sidebar.open {
+    width: 200px; /* Expanded sidebar width */
+  }
+  
+  .sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 60px; /* Push links below the toggle button */
+  }
+  
+  .sidebar-nav .nav-item {
+    margin: 10px 0;
+  }
+  
+  .sidebar-nav .nav-link {
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .sidebar-nav .nav-link i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  .sidebar-nav .nav-link:hover {
+    background-color: #555;
+  }
+  
+  /* Hide link text when sidebar is collapsed */
+  .sidebar .link-text {
+    display: none;
+  }
+  
+  .sidebar.open .link-text {
+    display: inline; /* Show text only when sidebar is expanded */
+  }
+  
+  /* Sidebar toggle button */
+  .sidebar-toggle {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .sidebar-toggle:hover {
+    background-color: #444;
+  }
+  
+  /* Navbar styling */
+  .navbar-container {
+    display: flex;
+    position: relative;
+  }
+  
+  .navbar {
+    width: 100%;
+    z-index: 999; /* Keep navbar above the sidebar */
+    position: fixed;
+    background: linear-gradient(125deg, #02121a, #0c0c0c); /* Light gradient */
+    border:none;
+  }
+  .navbar-brand{
+    color:white;
+    font-family: "Poppins", serif;
+  }
+  .icon-white {
+    color: white;
+  }
+  
+  /* Media query for mobile */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 35px;
+      height: 100vh;
+      position: fixed;
+      z-index: 1000;
+    }
+  
+    .sidebar.open {
+      width: 200px;
+    }
+  
+    /* Center icons on mobile */
+    .sidebar-nav .nav-link {
+      justify-content: center; /* Center the icons horizontally */
+      padding: 10px 0; /* Adjust padding */
+    }
+  
+    .sidebar-nav .nav-link i {
+      margin-right: 0; /* Remove margin for icon in mobile view */
+    }
+  
+    .sidebar-nav .nav-item {
+      display: flex;
+      justify-content: center; /* Center the entire nav item */
+    }
+  }
+  

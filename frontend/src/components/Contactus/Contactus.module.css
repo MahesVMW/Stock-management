@@ -1,0 +1,71 @@
+.contactus-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(125deg, #02121a, #0c0c0c);
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+    gap: 20px;
+    width: 100%; /* Ensure it takes full width */
+}
+h1{
+    color:#02121a;
+}
+.contact-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.contact-form {
+    flex: 1;
+    max-width: 400px; /* Decreased the maximum width of the form */
+}
+
+.contact-form .card {
+    width: 100%;
+    padding: 20px; /* Add padding for more spacing */
+}
+
+.contact-form .card h1 {
+    font-size: 2rem; /* Increase font size for better visibility */
+}
+
+.contact-form .form-control {
+    font-size: 1.1rem; /* Increase font size for better readability */
+    padding: 10px; /* Add padding for better spacing */
+}
+
+.contact-form .btn {
+    padding: 10px 20px; /* Increase button padding for a larger button */
+    font-size: 1.1rem; /* Increase button font size */
+}
+
+@media (max-width: 768px) {
+    .contact-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-image img, .contact-form .card {
+        max-width: 100%;
+    }
+    .contact-form {
+        flex: 1;
+        max-width: 350px; /* Increase maximum width of the form */
+      }
+      
+}

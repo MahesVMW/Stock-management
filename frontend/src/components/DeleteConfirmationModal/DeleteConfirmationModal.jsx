@@ -1,6 +1,6 @@
 // DeleteConfirmationModal.jsx
 import React from 'react';
-import './DeleteConfirmationModal.css'; // Style the modal as needed
+import './DeleteConfirmationModal.css';
 import { assets } from '../../assets/assets';
 
 const DeleteConfirmationModal = ({ stock, onDelete, onCancel }) => {

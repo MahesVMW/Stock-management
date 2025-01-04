@@ -15,4 +15,4 @@ export const assets={
     delete_icon
 }
 
-export const url = 'http://localhost:5000'
+export const url = 'https://stock-management-backend-z6jh.onrender.com'

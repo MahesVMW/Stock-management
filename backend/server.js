@@ -10,7 +10,6 @@ import userRouter from './routes/userRoute.js';
 dotenv.config();
 
 const app = express();
-const port = process.env || 4000;
 
 app.use(cors({
     origin: 'http://localhost:5173'

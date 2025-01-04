@@ -66,7 +66,7 @@ export const StockProvider = ({ children }) => {
   const addStock = async (stock) => {
     try {
       stock.quantity = Number(stock.quantity);
-      const response = await axios.post(`${url}/api/stock/stock`, stock);
+      const response = await axios.post(`${url}/api/stock/stockentry`, stock);
       setStocks(prevStocks => [...prevStocks, response.data]);
     } catch (error) {
       console.error('Failed to add stock', error);

@@ -15,4 +15,4 @@ export const assets={
     delete_icon
 }
 
-export const url = 'https://stock-management-backend-z6jh.onrender.com'
+export const url = 'https://stock-management-backend-9q3a.onrender.com'

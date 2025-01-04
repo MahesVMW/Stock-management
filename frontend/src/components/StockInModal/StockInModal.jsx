@@ -4,7 +4,7 @@ import axios from 'axios';
 import './StockInModal.css';
 
 const StockInModal = ({ show, handleClose, stock, handleStockIn }) => {
-  const url = "http://localhost:5000"; // Base URL
+  const url = "https://stock-management-backend-z6jh.onrender.com"; // Base URL
   const [quantity, setQuantity] = useState(stock.openingStock || 0);
   const [purchasePrice, setPurchasePrice] = useState(stock.salePrice || 0);
   const [notes, setNotes] = useState('');

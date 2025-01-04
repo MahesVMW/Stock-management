@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 
 const StockOutModal = ({ show, handleClose, stock = {}, handleStockOut }) => {
-  const url = "http://localhost:5000"; // Base URL
+  const url = "https://stock-management-backend-z6jh.onrender.com"; // Base URL
   const [quantity, setQuantity] = useState(stock.openingStock || 0);
   const [salePrice, setSalePrice] = useState(stock.salePrice || 0);
   const [notes, setNotes] = useState('');

@@ -1,6 +1,6 @@
 // DeleteConfirmationModal.jsx
 import React from 'react';
-import './DeleteConfirmationModal.css';
+import './DeleteconfirmationModal.css';
 import { assets } from '../../assets/assets';
 
 const DeleteConfirmationModal = ({ stock, onDelete, onCancel }) => {
